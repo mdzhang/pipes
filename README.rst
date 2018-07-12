@@ -38,27 +38,13 @@ Requirements
 Installation
 ============
 
-If you want to install, you can run:
+Install with `basher`_:
 
 .. code:: sh
 
-  $ make install
+  $ basher install mdzhang/pipes
 
-By default, it installs to ``/usr/local``; for user home, you can run:
-
-.. code:: sh
-
-  $ make PREFIX=$HOME/.local install
-
-Or any ``PREFIX`` you prefer.
-
-The ``Makefile`` also provides ``uninstall`` target.
-
-If you are a `Homebrew <http://brew.sh>`_ user, you can install via:
-
-.. code-block:: sh
-
-    $ brew install pipes-sh
+.. _basher: https://github.com/basherpm/basher
 
 
 Options
